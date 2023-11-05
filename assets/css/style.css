@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(44, 37, 37);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: rgb(44, 37, 37);
+}
+
+header img {
+    margin: 10px 0 10px 30px;
+    cursor: pointer;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    list-style: none;
+}
+
+header li {
+    padding-right: 40px;
+}
+
+header a {
+    color: white;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.area_1 {
+    display: flex;
+    justify-content: space-between;
+    height: 68vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.area_1 .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.area_1 h1 {
+    margin-bottom: 15px;
+    color: rgb(92, 77, 77);
+    font-size: 40pt;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.area_1 p {
+    color: rgb(44, 37, 37);
+    font-size: 16pt;
+    line-height: 25px;
+}
+
+.area_1 button {
+    width: 110px;
+    padding: 10px;
+    margin: 25px 0 0 60px;
+    background-color: rgb(44, 37, 37);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.area_1 button:hover {
+    background-color: rgb(99, 80, 80);
+}
+
+.area_1 img {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.area_2 {
+    display: flex;
+    justify-content: space-between;
+    height: 68vh;
+}
+
+.area_2 img {
+    width: 400px;
+    margin: 50px;
+}
+
+.area_2 .text {
+    margin: 100px 100px 0 0;
+    color: white;
+}
+
+.area_2 h2 {
+    color: rgb(158, 121, 121);
+    font-size: 25pt;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.area_2 ul {
+    margin-top: 1em;
+    font-size: 22pt;
+    list-style: none;
+}
+
+.area_2 li {
+    padding-bottom: 15px;
+}
+
+.area_2 span {
+    color: rgb(255, 255, 145);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(10, 10, 10), black);
+    color: white;
+}
+
+footer a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
